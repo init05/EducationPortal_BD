@@ -8,6 +8,6 @@ public class ApplicationContext : DbContext
     public ApplicationContext() => Database.EnsureCreated();
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=helloappdb;Trusted_Connection=True;");
+        optionsBuilder.UseSqlServer("Server=176.124.209.251;Database=helloappdb;Trusted_Connection=True;User ID=guest;Password=18072004;");
     }
 }
