@@ -8,6 +8,7 @@ public class ApplicationContext : DbContext
     public ApplicationContext() => Database.EnsureCreated();
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=176.124.209.251;Database=helloappdb;Trusted_Connection=True;User ID=guest;Password=18072004;");
+        optionsBuilder.UseMySql("server=sql7.freemysqlhosting.net;database=sql7579116;user=sql7579116;password=w7py4kVcVR;",
+            new MySqlServerVersion(new Version(8, 0, 25)));
     }
 }
