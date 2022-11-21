@@ -1,4 +1,4 @@
-namespace CORE.Models;
+namespace DAL.Models;
 
 public class Lesson
 {
@@ -11,4 +11,6 @@ public class Lesson
         Text = text;
         URL = url;
     }
+    
+    public Lesson() {}
 }

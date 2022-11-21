@@ -1,4 +1,4 @@
-using CORE.Models;
+using DAL.Models;
 
 namespace EducationPortal_BD;
 

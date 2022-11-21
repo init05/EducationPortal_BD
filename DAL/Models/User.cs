@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace CORE.Models;
+namespace DAL.Models;
 
 public class User
 {
@@ -17,10 +17,16 @@ public class User
     public bool Root { get; set; }
 
     public User(string userName, string password, string email, bool root)
+    :this(userName, password) {
+        Email = email;
+        Root = root;
+    }
+
+    public User(string userName, string password)
     {
         UserName = userName;
         Password = password;
-        Email = email;
-        Root = root;
+        Email = String.Empty;
+        Root = false;
     }
 }

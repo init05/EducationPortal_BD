@@ -1,11 +1,11 @@
-﻿namespace CORE.Models;
+﻿namespace DAL.Models;
 
 public class Course
 {
     public int Id { get; set; }
     public string? Name { get; set; }
     public string? Description { get; set; }
-    public List<Lesson> Lessons { get; set; }
+    public List<Lesson>? Lessons { get; set; }
 
     public Course(string name, string description, List<Lesson> lessons)
     {
@@ -16,4 +16,5 @@ public class Course
         Description = description;
         Lessons = lessons;
     }
+    public Course() {}
 }
