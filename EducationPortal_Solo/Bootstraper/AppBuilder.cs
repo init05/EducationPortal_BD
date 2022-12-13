@@ -5,7 +5,8 @@ public static class AppBuilder
     public static WebApplication GetApp(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
-        
+
+        builder.Services.AddAuthorization();
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
         
