@@ -8,21 +8,16 @@ using Microsoft.AspNetCore.Connections;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace EducationPortal_Solo.Controllers
-{
-    [Route("api/users/")]
-    [ApiController]
-    public class UserAPI_Controller : ControllerBase
-    {
-        UserLogic _userLogic = new UserLogic();
+namespace EducationPortal_Solo.APIs;
 
+public static class UsersApi
+{
+    static UserLogic _userLogic = new UserLogic();
         
-        [HttpGet("AddUser")]
-        public async Task AddUser(string username, string password, string conformationPassword, string email, bool root)
-            =>  await _userLogic.Register(username, password, conformationPassword, email, root);
-        
-        [HttpGet("GetAllUsers")]
-        public async Task<List<UserViewModel>> GetAllUsers()
+    public static void RegisterApis(WebApplication app)
+    {
+        // GET all users
+        app.MapGet("/users", async () =>
         {
             List<UserViewModel> viewModels = new List<UserViewModel>();
             var users = await _userLogic.GetAllUsers();
@@ -36,6 +31,11 @@ namespace EducationPortal_Solo.Controllers
             }
 
             return viewModels;
-        }
+        }).WithName("GetUsers");
+
+        app.MapPost("/users", async (string username, string password, string conformationPassword, string email, bool root) =>
+        {
+            await _userLogic.Register(username, password, conformationPassword, email, root);
+        }).WithName("Register");
     }
 }

@@ -1,29 +1,23 @@
 using BLL;
 using DAL.DataContext;
 using DAL.Models;
+using EducationPortal_Solo.APIs;
+using EducationPortal_Solo.Bootstraper;
 
 class Program
 {
     static void Main(string[] args)
     {
-        var builder = WebApplication.CreateBuilder(args);
+        // Build app
+        var app = AppBuilder.GetApp(args);
         
-        builder.Services.AddControllers();
-        builder.Services.AddEndpointsApiExplorer();
-        builder.Services.AddSwaggerGen();
+        // Configure app
+        PipelineBuilder.Configure(app);
         
-        var app = builder.Build();
+        // Connect end-points
+        UsersApi.RegisterApis(app);
         
-        if (app.Environment.IsDevelopment())
-        {
-            app.UseSwagger();
-            app.UseSwaggerUI();
-        }
-        
-        app.UseHttpsRedirection();
-        app.UseAuthorization();
-        app.MapControllers();
-        
+        // Run
         app.Run();
 
     }
