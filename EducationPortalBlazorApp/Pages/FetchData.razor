@@ -1,0 +1,45 @@
+﻿@page "/fetchdata"
+@using EducationPortalBlazorApp.Services
+@inject UserApiClient usersApi
+
+
+<PageTitle>Get All Users</PageTitle>
+
+<h1>Users</h1>
+
+@if (Users == null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Username</th>
+                <th>E-mail</th>
+                <th>Root</th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var user in Users)
+        {
+            <tr>
+                <td>@user.UserName</td>
+                <td>@user.Email</td>
+                <td>@user.Root</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+
+@code
+{
+    private List<User>? Users;
+
+    protected override async Task OnInitializedAsync()
+    {
+        Users = await usersApi.GetUsersAsync();
+    }
+}

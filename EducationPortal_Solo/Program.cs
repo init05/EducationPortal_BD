@@ -1,6 +1,3 @@
-using BLL;
-using DAL.DataContext;
-using DAL.Models;
 using EducationPortal_Solo.APIs;
 using EducationPortal_Solo.Bootstraper;
 

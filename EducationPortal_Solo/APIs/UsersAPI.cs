@@ -33,6 +33,7 @@ public static class UsersApi
             return viewModels;
         }).WithName("GetUsers");
 
+        // Register new user
         app.MapPost("/users", async (string username, string password, string conformationPassword, string email, bool root) =>
         {
             await _userLogic.Register(username, password, conformationPassword, email, root);
