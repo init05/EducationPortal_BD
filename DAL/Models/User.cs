@@ -16,7 +16,7 @@ public class User
     [Compare("Password")]
     public string? ConformationPassword { get; set; }
     [Required(ErrorMessage = "Email is required!")]
-    [RegularExpression(@"\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b")]
+    //[RegularExpression(@"\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b")]
     public string? Email { get; set; }
     [Required(ErrorMessage = "Root is required!")]
     public bool Root { get; set; }
@@ -36,4 +36,6 @@ public class User
         Email = String.Empty;
         Root = false;
     }
+
+    public User() { }
 }

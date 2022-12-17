@@ -11355,29 +11355,27 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ОБУЧЕНИЕ\\EducationPortal\\EducationPortal_Solo\\EducationPortal_Solo\\EducationPortal_Solo.csproj",
+      "projectUniqueName": "C:\\Users\\denis\\RiderProjects\\EducationPortal_API\\EducationPortal_Solo\\EducationPortal_Solo.csproj",
       "projectName": "EducationPortal_Solo",
-      "projectPath": "E:\\ОБУЧЕНИЕ\\EducationPortal\\EducationPortal_Solo\\EducationPortal_Solo\\EducationPortal_Solo.csproj",
+      "projectPath": "C:\\Users\\denis\\RiderProjects\\EducationPortal_API\\EducationPortal_Solo\\EducationPortal_Solo.csproj",
       "packagesPath": "C:\\Users\\denis\\.nuget\\packages\\",
-      "outputPath": "E:\\ОБУЧЕНИЕ\\EducationPortal\\EducationPortal_Solo\\EducationPortal_Solo\\obj\\",
+      "outputPath": "C:\\Users\\denis\\RiderProjects\\EducationPortal_API\\EducationPortal_Solo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\denis\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\denis\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "E:\\ОБУЧЕНИЕ\\EducationPortal\\EducationPortal_Solo\\BLL\\BLL.csproj": {
-              "projectPath": "E:\\ОБУЧЕНИЕ\\EducationPortal\\EducationPortal_Solo\\BLL\\BLL.csproj"
+            "C:\\Users\\denis\\RiderProjects\\EducationPortal_API\\BLL\\BLL.csproj": {
+              "projectPath": "C:\\Users\\denis\\RiderProjects\\EducationPortal_API\\BLL\\BLL.csproj"
             }
           }
         }

@@ -1,0 +1,7 @@
+﻿<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="EducationalPortal" type="CompoundRunConfigurationType">
+    <toRun name="EducationPortalBlazorApp: https" type="LaunchSettings" />
+    <toRun name="EducationPortal_Solo: https" type="LaunchSettings" />
+    <method v="2" />
+  </configuration>
+</component>

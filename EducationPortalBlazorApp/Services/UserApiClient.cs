@@ -1,17 +1,9 @@
 ﻿using System.Net.Http.Json;
+using DAL.Models;
+using EducationPortalBlazorApp.Models;
 
 namespace EducationPortalBlazorApp.Services;
 
-public class User
-{
-    public int Id { get; set; }
-    
-    public string? UserName { get; set; }
-    
-    public string? Email { get; set; }
-    
-    public bool Root { get; set; }
-}
 
 public class UserApiClient
 {
@@ -22,7 +14,7 @@ public class UserApiClient
         this.httpClient = httpClient;
     }
 
-    public async Task<List<User>?> GetUsersAsync()
+    public async Task<List<UserView>?> GetUsersAsync()
     {
         try
         {
@@ -30,7 +22,7 @@ public class UserApiClient
 
             if (response.IsSuccessStatusCode)
             {
-                var students = await response.Content.ReadFromJsonAsync<List<User>>();
+                var students = await response.Content.ReadFromJsonAsync<List<UserView>>();
                 return students;
             }
         }
@@ -39,6 +31,18 @@ public class UserApiClient
             Console.WriteLine(e);
         }
 
-        return new List<User>();
+        return new List<UserView>();
+    }
+
+    public async Task AddUser(User user)
+    {
+        try
+        {
+            var response = await httpClient.PostAsJsonAsync<User>("/users", user);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+        }
     }
 }

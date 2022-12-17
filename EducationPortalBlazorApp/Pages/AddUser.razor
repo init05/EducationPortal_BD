@@ -1,0 +1,57 @@
+﻿@page "/add-user"
+@using EducationPortalBlazorApp.Services
+@using EducationPortalBlazorApp.Models
+@using Microsoft.AspNetCore.Components
+@using DAL.Models
+@using System.Net.Mail
+@inject UserApiClient UserApi
+
+<h3>AddUser</h3>
+
+<EditForm Model="@_user" OnValidSubmit="@HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <p>
+        <label>
+            Username:
+            <InputText @bind-Value="_user.UserName"/>
+        </label>
+    </p>
+    <p>
+        <label>
+            Password:
+            <InputText @bind-Value="_user.Password"/>
+        </label>
+    </p>
+    <p>
+        <label>
+            Conformation password:
+            <InputText @bind-Value="_user.ConformationPassword"/>
+        </label>
+    </p>
+    <p>
+        <label>
+            Email:
+            <InputText type="email" @bind-Value="_user.Email"/>
+        </label>
+    </p>
+    <p>
+        <label>
+            Root:
+            <InputCheckbox @bind-Value="_user.Root"/>
+        </label>
+    </p>
+    
+
+    <button type="submit">Submit</button>
+</EditForm>
+
+@code {
+    private User _user = new User();
+
+    private async Task HandleValidSubmit()
+    {
+        await UserApi.AddUser(_user);
+    }
+}

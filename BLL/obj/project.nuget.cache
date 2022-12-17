@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3ivsniQ1lgdIq6fOilmGENGpCPX/JqT5Odh4b5y9Zx+27ivw0vDSkJu2Gri95dLVDfaeN1wSw/O8Z8svrA3fYQ==",
+  "dgSpecHash": "NIGKQovuohTTehac6uXGVu0acxdQUT5CfMQBaxw5gKYJ63y5PcJ74X8QJP+SUPPT+fXCKuUCt6GkdQjveyysLw==",
   "success": true,
-  "projectFilePath": "E:\\ОБУЧЕНИЕ\\EducationPortal\\EducationPortal_Solo\\BLL\\BLL.csproj",
+  "projectFilePath": "C:\\Users\\denis\\RiderProjects\\EducationPortal_API\\BLL\\BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\denis\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\denis\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

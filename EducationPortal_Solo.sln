@@ -7,6 +7,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{4F105024-60E9-4917-82F0-643E5111E89D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EducationPortalBlazorApp", "EducationPortalBlazorApp\EducationPortalBlazorApp.csproj", "{D21E6C51-ADA4-462B-B631-19C3611F651A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4A2B4C6D-DA03-4901-AACD-6538F59E3ABF} = {4A2B4C6D-DA03-4901-AACD-6538F59E3ABF}
+		{4F105024-60E9-4917-82F0-643E5111E89D} = {4F105024-60E9-4917-82F0-643E5111E89D}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

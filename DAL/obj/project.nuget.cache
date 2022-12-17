@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0UNWknuY7SrCW341sC/MA7WjXQMywhLcygKRlOOq1srfeooedSLYPHcm9rB40ZDlt6XAJdGKM/6ygDIQAQfegQ==",
+  "dgSpecHash": "4C65bbuTeJkCn6DhoILqUEy7ph1oykC/4F0VaDEDep7A2FEyX0gwno6b26TgWDeAXXRhok+PjxeOlLxkR9nhOg==",
   "success": true,
-  "projectFilePath": "E:\\ОБУЧЕНИЕ\\EducationPortal\\EducationPortal_Solo\\DAL\\DAL.csproj",
+  "projectFilePath": "C:\\Users\\denis\\RiderProjects\\EducationPortal_API\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\denis\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\denis\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.0\\microsoft.entityframeworkcore.7.0.0.nupkg.sha512",

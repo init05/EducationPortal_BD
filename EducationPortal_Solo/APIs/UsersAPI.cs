@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using BLL;
+using DAL.Models;
 using EducationPortal_Solo.Models;
 using Microsoft.AspNetCore.Connections;
 using Microsoft.AspNetCore.Http;
@@ -34,9 +35,14 @@ public static class UsersApi
         }).WithName("GetUsers");
 
         // Register new user
-        app.MapPost("/users", async (string username, string password, string conformationPassword, string email, bool root) =>
+        app.MapPost("/users", async (User user) =>
         {
-            await _userLogic.Register(username, password, conformationPassword, email, root);
+            await _userLogic.Register(
+                user.UserName, 
+                user.Password, 
+                user.ConformationPassword, 
+                user.Email, 
+                user.Root);
         }).WithName("Register");
     }
 }

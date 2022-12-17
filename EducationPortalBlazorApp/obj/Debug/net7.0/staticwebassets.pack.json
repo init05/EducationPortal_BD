@@ -1,80 +1,76 @@
 {
   "Files": [
     {
-      "Id": "E:\\ОБУЧЕНИЕ\\EducationPortal\\EducationPortal_Solo\\EducationPortalBlazorApp\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\Users\\denis\\RiderProjects\\EducationPortal_API\\EducationPortalBlazorApp\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "E:\\ОБУЧЕНИЕ\\EducationPortal\\EducationPortal_Solo\\EducationPortalBlazorApp\\obj\\Debug\\net7.0\\build-gz\\gZ+JD4ql.gz",
+      "Id": "C:\\Users\\denis\\RiderProjects\\EducationPortal_API\\EducationPortalBlazorApp\\obj\\Debug\\net7.0\\build-gz\\gZ+JD4ql.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "E:\\ОБУЧЕНИЕ\\EducationPortal\\EducationPortal_Solo\\EducationPortalBlazorApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\EducationPortalBlazorApp.styles.css",
+      "Id": "C:\\Users\\denis\\RiderProjects\\EducationPortal_API\\EducationPortalBlazorApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\EducationPortalBlazorApp.styles.css",
       "PackagePath": "staticwebassets\\EducationPortalBlazorApp.styles.css"
     },
     {
-      "Id": "E:\\ОБУЧЕНИЕ\\EducationPortal\\EducationPortal_Solo\\EducationPortalBlazorApp\\wwwroot\\css\\app.css",
+      "Id": "C:\\Users\\denis\\RiderProjects\\EducationPortal_API\\EducationPortalBlazorApp\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "E:\\ОБУЧЕНИЕ\\EducationPortal\\EducationPortal_Solo\\EducationPortalBlazorApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\denis\\RiderProjects\\EducationPortal_API\\EducationPortalBlazorApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "E:\\ОБУЧЕНИЕ\\EducationPortal\\EducationPortal_Solo\\EducationPortalBlazorApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\denis\\RiderProjects\\EducationPortal_API\\EducationPortalBlazorApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "E:\\ОБУЧЕНИЕ\\EducationPortal\\EducationPortal_Solo\\EducationPortalBlazorApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Id": "C:\\Users\\denis\\RiderProjects\\EducationPortal_API\\EducationPortalBlazorApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },
     {
-      "Id": "E:\\ОБУЧЕНИЕ\\EducationPortal\\EducationPortal_Solo\\EducationPortalBlazorApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Id": "C:\\Users\\denis\\RiderProjects\\EducationPortal_API\\EducationPortalBlazorApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },
     {
-      "Id": "E:\\ОБУЧЕНИЕ\\EducationPortal\\EducationPortal_Solo\\EducationPortalBlazorApp\\wwwroot\\css\\open-iconic\\README.md",
+      "Id": "C:\\Users\\denis\\RiderProjects\\EducationPortal_API\\EducationPortalBlazorApp\\wwwroot\\css\\open-iconic\\README.md",
       "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
     },
     {
-      "Id": "E:\\ОБУЧЕНИЕ\\EducationPortal\\EducationPortal_Solo\\EducationPortalBlazorApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Id": "C:\\Users\\denis\\RiderProjects\\EducationPortal_API\\EducationPortalBlazorApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Id": "E:\\ОБУЧЕНИЕ\\EducationPortal\\EducationPortal_Solo\\EducationPortalBlazorApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Id": "C:\\Users\\denis\\RiderProjects\\EducationPortal_API\\EducationPortalBlazorApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Id": "E:\\ОБУЧЕНИЕ\\EducationPortal\\EducationPortal_Solo\\EducationPortalBlazorApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Id": "C:\\Users\\denis\\RiderProjects\\EducationPortal_API\\EducationPortalBlazorApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Id": "E:\\ОБУЧЕНИЕ\\EducationPortal\\EducationPortal_Solo\\EducationPortalBlazorApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Id": "C:\\Users\\denis\\RiderProjects\\EducationPortal_API\\EducationPortalBlazorApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Id": "E:\\ОБУЧЕНИЕ\\EducationPortal\\EducationPortal_Solo\\EducationPortalBlazorApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Id": "C:\\Users\\denis\\RiderProjects\\EducationPortal_API\\EducationPortalBlazorApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Id": "E:\\ОБУЧЕНИЕ\\EducationPortal\\EducationPortal_Solo\\EducationPortalBlazorApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Id": "C:\\Users\\denis\\RiderProjects\\EducationPortal_API\\EducationPortalBlazorApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Id": "E:\\ОБУЧЕНИЕ\\EducationPortal\\EducationPortal_Solo\\EducationPortalBlazorApp\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\denis\\RiderProjects\\EducationPortal_API\\EducationPortalBlazorApp\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "E:\\ОБУЧЕНИЕ\\EducationPortal\\EducationPortal_Solo\\EducationPortalBlazorApp\\wwwroot\\icon-192.png",
+      "Id": "C:\\Users\\denis\\RiderProjects\\EducationPortal_API\\EducationPortalBlazorApp\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "E:\\ОБУЧЕНИЕ\\EducationPortal\\EducationPortal_Solo\\EducationPortalBlazorApp\\wwwroot\\index.html",
+      "Id": "C:\\Users\\denis\\RiderProjects\\EducationPortal_API\\EducationPortalBlazorApp\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
-    },
-    {
-      "Id": "E:\\ОБУЧЕНИЕ\\EducationPortal\\EducationPortal_Solo\\EducationPortalBlazorApp\\wwwroot\\sample-data\\weather.json",
-      "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.EducationPortalBlazorApp.Microsoft.AspNetCore.StaticWebAssets.props",
