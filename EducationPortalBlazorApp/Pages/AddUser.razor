@@ -10,37 +10,42 @@
 
 <EditForm Model="@_user" OnValidSubmit="@HandleValidSubmit">
     <DataAnnotationsValidator />
-    <ValidationSummary />
+    @*<ValidationSummary />*@
 
     <p>
         <label>
             Username:
             <InputText @bind-Value="_user.UserName"/>
         </label>
+        <ValidationMessage For="() => _user.UserName"></ValidationMessage>
     </p>
     <p>
         <label>
             Password:
             <InputText @bind-Value="_user.Password"/>
         </label>
+        <ValidationMessage For="() => _user.Password"></ValidationMessage>
     </p>
     <p>
         <label>
             Conformation password:
             <InputText @bind-Value="_user.ConformationPassword"/>
         </label>
+        <ValidationMessage For="() => _user.ConformationPassword"></ValidationMessage>
     </p>
     <p>
         <label>
             Email:
-            <InputText type="email" @bind-Value="_user.Email"/>
+            <InputText @bind-Value="_user.Email"/>
         </label>
+        <ValidationMessage For="() => _user.Email"></ValidationMessage>
     </p>
     <p>
         <label>
             Root:
             <InputCheckbox @bind-Value="_user.Root"/>
         </label>
+        <ValidationMessage For="() => _user.Root"></ValidationMessage>
     </p>
     
 
